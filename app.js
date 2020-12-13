@@ -1,6 +1,6 @@
 function randomRGB(){
     const r = Math.floor(Math.random() * 256) //random from 0 to 255
-    const g = Math.floor(Math.random() * 256) //random from 0 to 255
+    const g = 0;
     const b = Math.floor(Math.random() * 256) //random from 0 to 255
     return `rgb(${r}, ${g}, ${b})`;
 }
